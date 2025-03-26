@@ -3,6 +3,8 @@
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-%23005C0F.svg?style=for-the-badge&logo=Thymeleaf&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 Aplikacja webowa prezentująca statystyki piłkarskie LaLigi, integrująca się z API football-data.org.
 
@@ -25,9 +27,19 @@ Aplikacja webowa prezentująca statystyki piłkarskie LaLigi, integrująca się 
 ### Wymagania
 - Java 17+
 - Maven 3.8+
+- Docker 20.10+
 - Klucz API z [football-data.org](https://www.football-data.org/)
 
-### Instalacja
-1. Sklonuj repozytorium:
-   ```bash
-   git clone https://github.com/STBash/LaLiga_DB.git
+```bash
+# 1. Sklonuj repozytorium
+git clone https://github.com/STBash/LaLiga_DB.git
+cd LaLiga_DB
+
+# 2. Skonfiguruj klucz API
+echo "FOOTBALL_API_KEY=twój_klucz" > .env
+
+# 3. Uruchom kontenery
+docker-compose up -d
+
+# Aplikacja będzie dostępna pod:
+http://localhost:8080
