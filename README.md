@@ -36,7 +36,7 @@ git clone https://github.com/STBash/LaLiga_DB.git
 cd LaLiga_DB
 
 # 2. Skonfiguruj klucz API
-echo "FOOTBALL_API_KEY=twój_klucz" > .env
+application.properties  ---> "FOOTBALL_API_KEY=twój_klucz" 
 
 # 3. Uruchom kontenery
 docker-compose up -d
