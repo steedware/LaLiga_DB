@@ -1,0 +1,16 @@
+C:\Users\szymo\Desktop\progr\laliga-website\src\main\java\com\example\laliga\config\FootballApiConfig.java
+C:\Users\szymo\Desktop\progr\laliga-website\src\main\java\com\example\laliga\controller\ErrorController.java
+C:\Users\szymo\Desktop\progr\laliga-website\src\main\java\com\example\laliga\controller\MainController.java
+C:\Users\szymo\Desktop\progr\laliga-website\src\main\java\com\example\laliga\controller\PlayerController.java
+C:\Users\szymo\Desktop\progr\laliga-website\src\main\java\com\example\laliga\controller\TeamController.java
+C:\Users\szymo\Desktop\progr\laliga-website\src\main\java\com\example\laliga\LaligaApplication.java
+C:\Users\szymo\Desktop\progr\laliga-website\src\main\java\com\example\laliga\model\Competition.java
+C:\Users\szymo\Desktop\progr\laliga-website\src\main\java\com\example\laliga\model\Matches.java
+C:\Users\szymo\Desktop\progr\laliga-website\src\main\java\com\example\laliga\model\Player.java
+C:\Users\szymo\Desktop\progr\laliga-website\src\main\java\com\example\laliga\model\Team.java
+C:\Users\szymo\Desktop\progr\laliga-website\src\main\java\com\example\laliga\repository\CompetitionRepository.java
+C:\Users\szymo\Desktop\progr\laliga-website\src\main\java\com\example\laliga\repository\MatchRepository.java
+C:\Users\szymo\Desktop\progr\laliga-website\src\main\java\com\example\laliga\repository\PlayerRepository.java
+C:\Users\szymo\Desktop\progr\laliga-website\src\main\java\com\example\laliga\repository\TeamRepository.java
+C:\Users\szymo\Desktop\progr\laliga-website\src\main\java\com\example\laliga\service\DataSyncService.java
+C:\Users\szymo\Desktop\progr\laliga-website\src\main\java\com\example\laliga\service\FootballApiService.java

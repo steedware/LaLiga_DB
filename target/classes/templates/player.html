@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${player.name} + ' - Player Details'"></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container py-4">
+    <div class="card">
+        <div class="card-header">
+            <h2 th:text="${player.name}"></h2>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img th:src="${player.photoUrl}" class="img-fluid rounded mb-3"
+                         onerror="this.src='https://via.placeholder.com/300'">
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><strong>Position:</strong> <span th:text="${player.position}"></span></p>
+                            <p><strong>Team:</strong> <span th:text="${player.team.name}"></span></p>
+                            <p><strong>Shirt Number:</strong> <span th:text="${player.shirtNumber}"></span></p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><strong>Nationality:</strong> <span th:text="${player.nationality}"></span></p>
+                            <p><strong>Age:</strong> <span th:text="${player.age}"></span></p>
+                            <p><strong>Date of Birth:</strong> <span th:text="${player.dateOfBirth}"></span></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><strong>Goals:</strong> <span class="badge bg-success" th:text="${player.goals}"></span></p>
+                            <p><strong>Assists:</strong> <span class="badge bg-primary" th:text="${player.assists}"></span></p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><strong>Yellow Cards:</strong> <span class="badge bg-warning text-dark" th:text="${player.yellowCards}"></span></p>
+                            <p><strong>Red Cards:</strong> <span class="badge bg-danger" th:text="${player.redCards}"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

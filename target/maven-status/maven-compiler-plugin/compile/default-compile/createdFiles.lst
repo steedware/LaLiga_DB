@@ -1,0 +1,17 @@
+com\example\laliga\model\Matches.class
+com\example\laliga\repository\TeamRepository.class
+com\example\laliga\LaligaApplication.class
+com\example\laliga\controller\MainController.class
+com\example\laliga\controller\PlayerController.class
+com\example\laliga\repository\PlayerRepository.class
+com\example\laliga\model\Competition.class
+com\example\laliga\model\Player.class
+com\example\laliga\repository\CompetitionRepository.class
+com\example\laliga\config\FootballApiConfig.class
+com\example\laliga\service\FootballApiService.class
+com\example\laliga\controller\TeamController.class
+com\example\laliga\controller\ErrorController.class
+com\example\laliga\model\Team.class
+com\example\laliga\repository\MatchRepository.class
+com\example\laliga\service\FootballApiService$TeamsResponse.class
+com\example\laliga\service\DataSyncService.class
