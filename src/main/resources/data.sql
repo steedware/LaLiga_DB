@@ -1,3 +1,6 @@
+--- Dane, używane do testowania bazy danych ------
+
+
 -- Przykładowe drużyny
 INSERT INTO team (id, name, short_name, tla, crest_url, points, position) VALUES
 (86, 'Real Madrid CF', 'Real Madrid', 'RMA', 'https://crests.football-data.org/86.png', 85, 1),
