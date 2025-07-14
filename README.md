@@ -32,7 +32,7 @@ Aplikacja webowa prezentująca statystyki piłkarskie LaLigi, integrująca się 
 
 ```bash
 # 1. Sklonuj repozytorium
-git clone https://github.com/STBash/LaLiga_DB.git
+git clone https://github.com/steedware/LaLiga_DB.git
 cd LaLiga_DB
 
 # 2. Skonfiguruj klucz API
