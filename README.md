@@ -1,4 +1,4 @@
-# LaLiga Statistics Dashboard ⚽📊
+# LaLiga Statistics Dashboard
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
@@ -6,40 +6,44 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-Aplikacja webowa prezentująca statystyki piłkarskie LaLigi, integrująca się z API football-data.org.
+A web application presenting LaLiga football statistics, integrating with the football-data.org API.
 
-## ✨ Funkcje
-- Przegląd drużyn i zawodników
-- Rankingi strzelców
-- Ostatnie mecze
-- Wyszukiwarka drużyn i zawodników
-- Szczegółowe statystyki
+## Features
 
-## 🛠 Technologie
+- Team and player overview
+- Top scorers rankings
+- Recent matches
+- Team and player search functionality
+- Detailed statistics
+
+## Technologies
+
 - **Backend**: Java 17, Spring Boot 3.x
 - **Frontend**: Thymeleaf, Bootstrap 5
 - **API**: [football-data.org](https://www.football-data.org/)
-- **Baza danych**: H2/MySQL (konfigurowalna)
-- **Narzędzia**: Maven, Lombok
+- **Database**: H2/MySQL (configurable)
+- **Tools**: Maven, Lombok
 
-## 🚀 Szybki start
+## Quick Start
 
-### Wymagania
+### Requirements
+
 - Java 17+
 - Maven 3.8+
 - Docker 20.10+
-- Klucz API z [football-data.org](https://www.football-data.org/)
+- API key from [football-data.org](https://www.football-data.org/)
 
 ```bash
-# 1. Sklonuj repozytorium
+# 1. Clone the repository
 git clone https://github.com/steedware/LaLiga_DB.git
 cd LaLiga_DB
 
-# 2. Skonfiguruj klucz API
-application.properties  ---> "FOOTBALL_API_KEY=twój_klucz" 
+# 2. Configure API key
+application.properties  ---> "FOOTBALL_API_KEY=your_key" 
 
-# 3. Uruchom kontenery
+# 3. Start containers
 docker-compose up -d
 
-# Aplikacja będzie dostępna pod:
+# Application will be available at:
 http://localhost:8080
+```
